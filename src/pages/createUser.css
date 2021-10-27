@@ -1,0 +1,47 @@
+.FieldContainer{
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.userInfo{
+        width: 90rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 184px;
+}
+
+.inputContainer{
+    display: flex;
+    width: 100%;
+    /* margin: 0px 0px 0px 60px; */
+}
+
+.fieldsShow{
+    width: 100%;
+    text-align: start;
+}
+
+.center{
+    width: 100%;
+}
+
+.userBtn_create{
+    margin: 20px 10px;
+    width: 82%;
+    text-align: end;
+    display: flex;
+    justify-content: end;
+}
+
+.cancelBtn{
+    width:150px;
+    height: 36px;
+    border: 1px solid #4f4f53;
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+    margin: 0px 7px;
+}

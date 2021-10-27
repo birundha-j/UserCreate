@@ -1,0 +1,35 @@
+.brdrcls{
+    height: 32px;
+    width: 64%;
+    padding: 2px 3px;
+    margin: 5px 0px;
+    border: 1px solid rgb(37, 122, 202);
+}
+
+
+
+input[type="text"]:focus {
+    box-shadow: 0 0 3px #719ECE;
+    outline: none;
+}
+
+input[type="password"]:focus {
+    box-shadow: 0 0 3px #719ECE;
+    outline: none;
+}
+
+input[type="date"]:focus {
+    box-shadow: 0 0 3px #719ECE;
+    outline: none;
+}
+
+input[type="number"]:focus {
+    box-shadow: 0 0 3px #719ECE;
+    outline: none;
+}
+
+.Errormsg {
+    font-size: 12px;
+    /* // margin-top: 4px !important; */
+    color: red;
+  }

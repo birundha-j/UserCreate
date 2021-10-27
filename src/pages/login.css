@@ -1,0 +1,82 @@
+.loginContainer{
+    background: rgb(36,8,163);
+    background: linear-gradient(90deg, rgba(36,8,163,1) 9%, rgba(50,152,187,1) 50%, rgba(0,212,255,1) 100%);
+    width: 100%;
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginpageContainer{
+    width: 27%;
+}
+
+.fieldContainers{
+   /* display: flex;
+   justify-content: center; */
+   text-align: center;
+}
+
+.insideContainer{
+    width: 100%;
+    background: white;
+    height: 370px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.login_header{
+    color: white;
+    font-size: 27px;
+    padding: 17px 52px;
+    font-weight: 600;
+}
+
+.logoImage{
+    width: 100px;
+    margin: 10px 0px 5px 0px;
+}
+
+.fieldsShow_Container{
+    width: 100%;
+    margin: 0px 0px 0px 60px;
+}
+
+.fieldsShow{
+    padding: 5px;
+}
+
+.fieldsShowBtn{
+    width: 65%;
+    padding: 8px 0px;
+    text-align: end;
+    margin: 10px 0px;
+}
+
+.btn_Show{
+    width: 80px;
+    height: 30px;
+    border: 1px solid #1212f3;
+    background: rgb(36,8,163);
+    background: linear-gradient(90deg, rgb(52, 30, 153) 9%, rgba(50,152,187,1) 50%, rgba(0,212,255,1) 100%);
+    color: white;
+    font-size: 14px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.invalid_err{
+    text-align: center;
+    padding: 0px 0px 10px 0px;
+    color: red;
+    font-size: 14px;
+}
+
+
+.eyeIcon{
+    position: relative;
+    width: -14%;
+    bottom: 34px;
+    left: 213px;
+}

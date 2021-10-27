@@ -1,0 +1,52 @@
+.dashBoardContainer{
+    width: 100%;
+    text-align: center;
+    
+}
+
+.headerMenu{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    height: 70px;
+    position: fixed;
+    justify-content: center;
+    color: white;
+    font-weight: 600;
+    font-size: 25px;
+    background-image: linear-gradient(to right, #2a246b, #005098, #007bbc, #00a7d7, #28d2eb);
+    box-shadow: 4px 5px 5px -1px rgb(231 228 228 / 67%);
+}
+
+.MiddleContent{
+    /* background-image: linear-gradient(to right, #2a246b, #005098, #007bbc, #00a7d7, #28d2eb); */
+    height: 650px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Content{
+    width: 50%;
+    color: #2a246b;
+    font-weight: 600;
+    font-size: 35px;
+}
+
+.createBtn{
+    text-align: end;
+    margin: 20px;
+}
+
+.createBtn_show{
+    width:150px;
+    height: 36px;
+    border: 1px solid #1212f3;
+    background: rgb(36,8,163);
+    background: linear-gradient(90deg, rgb(52, 30, 153) 9%, rgba(50,152,187,1) 50%, rgba(0,212,255,1) 100%);
+    color: rgb(255, 255, 255);
+    font-size: 17px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
